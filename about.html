@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="title">Como Usar - Controle de Progresso</title>
+    <link rel="stylesheet" href="style-about.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-list">
+            <li><a id="homeLink" href="index.html">Página Inicial</a></li>
+            <li> | </></li>
+            <li><a id="aboutLink" href="about.html">Como Usar</a></li>
+        </ul>
+      </nav>
+      <div class="language-buttons">
+        <button
+          id="ptButton"
+          class="lang-button"
+          onclick="changeLanguage('pt')"
+        >
+          <img src="brazil.png" alt="Portuguese" />
+        </button>
+        <button
+          id="enButton"
+          class="lang-button"
+          onclick="changeLanguage('en')"
+        >
+          <img src="usa.png" alt="English" />
+        </button>
+      </div>
+    </header>
+
+    <div class="container">
+      <h1 id="pageTitle">Como Usar</h1>
+
+      <section class="totalArea">
+        <h2 id="objectiveTitle">Objetivo</h2>
+        <div class="insideTotal">
+          <p id="objectiveText">
+            Este site ajuda você a controlar seu progresso de estudo, seja em
+            páginas de material ou questões de exercício. Acompanhe sua evolução
+            em tempo real!
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="featuresTitle">Funcionalidade</h2>
+        <ul id="featuresList">
+          <li>
+            <strong id="feature1">Número Inicial e Final:</strong> Defina um
+            intervalo de páginas ou questões para estudar/revisar.
+          </li>
+          <li>
+            <strong id="feature2">Contador de Progresso:</strong> Marque como
+            "concluído" o que já foi feito, e veja a evolução.
+          </li>
+          <li>
+            <strong id="feature3">Geração Dinâmica de Botões:</strong> O site
+            gera botões numerados para cada item, e você pode marcar os que já
+            completou.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 id="howItWorksTitle">Como Funciona na Prática?</h2>
+        <p id="howItWorksText">
+          Ao definir o intervalo (por exemplo, de 1 a 50), o site cria botões. À
+          medida que você avança, vai clicando nos botões para marcar o que já
+          completou, e o contador atualiza automaticamente.
+        </p>
+      </section>
+
+      <section>
+        <h2 id="exampleTitle">Exemplo</h2>
+        <p id="exampleText">
+          Se você estiver lendo um livro e está na página 20, defina "Início"
+          como 1 e "Fim" como 50. À medida que avança, marque os botões das
+          páginas que já leu, e o contador de "concluídos" será atualizado.
+        </p>
+      </section>
+
+      <footer>
+        <p>
+          <a id="footerLink" href="https://github.com/carol-andradech">
+            ☕ GitHub - Ana Carolina Andrade
+          </a>
+        </p>
+      </footer>
+    </div>
+
+    <script src="language-about.js"></script>
+  </body>
+</html>

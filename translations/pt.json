@@ -1,9 +1,11 @@
 {
-  "start": "Número inicial",
-  "end": "Número final",
+  "start": "de",
+  "end": "até",
   "generate": "Gerar",
   "clear": "Limpar",
   "finished": "Concluído:   ",
   "total": "0",
-  "toptext": "Contador Tarefa"
+  "toptext": "Contador Tarefa",
+  "homeLink": "Início",
+  "aboutLink": "Como usar"
 }

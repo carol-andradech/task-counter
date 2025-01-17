@@ -1,0 +1,17 @@
+{
+  "title": "Como Usar - Controle de Progresso",
+  "pageTitle": "Como Usar",
+  "objectiveTitle": "Objetivo",
+  "objectiveText": "Este site ajuda você a controlar seu progresso de estudo, seja em páginas de material ou questões de exercício. Acompanhe sua evolução em tempo real!",
+  "featuresTitle": "Funcionalidade",
+  "feature1": "Número Inicial e Final:",
+  "feature2": "Contador de Progresso:",
+  "feature3": "Geração Dinâmica de Botões:",
+  "howItWorksTitle": "Como Funciona na Prática?",
+  "howItWorksText": "Ao definir o intervalo (por exemplo, de 1 a 50), o site cria botões. À medida que você avança, vai clicando nos botões para marcar o que já completou, e o contador atualiza automaticamente.",
+  "exampleTitle": "Exemplo",
+  "exampleText": "Se você estiver lendo um livro e está na página 20, defina 'Início' como 1 e 'Fim' como 50. À medida que avança, marque os botões das páginas que já leu, e o contador de 'concluídos' será atualizado.",
+  "footerLink": "☕ GitHub - Ana Carolina Andrade",
+  "homeLink": "Início",
+  "aboutLink": "Como usar"
+}

@@ -71,6 +71,8 @@ function changeLanguage(language) {
       document.getElementById("finished").innerText = data.finished;
       document.getElementById("total").innerText = data.total;
       document.getElementById("toptext").innerText = data.toptext;
+      document.getElementById("homeLink").innerText = data.homeLink;
+      document.getElementById("aboutLink").innerText = data.aboutLink;
     })
     .catch((err) => {
       console.error("Error loading translation file:", err);

@@ -17,7 +17,6 @@ body {
 
 /* Center everything inside the body */
 body {
-  margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start; /* Move content to the top */
@@ -25,6 +24,39 @@ body {
   gap: 20px; /* Space between divs */
   text-align: center;
   padding-top: 20px; /* Adds some space at the top */
+}
+
+header {
+  width: 100%; /* Garante que o cabeçalho ocupe toda a largura */
+  background-color: #4f3b78;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+nav ul.nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul.nav-list li {
+  margin-right: 20px;
+}
+
+nav ul.nav-list li:last-child {
+  margin-right: 0; /* Remove a margem do último item */
+}
+
+nav ul.nav-list li a {
+  color: rgb(239, 177, 29);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+nav ul.nav-list li a:hover {
+  text-decoration: underline;
 }
 
 .lang-button {
@@ -224,17 +256,21 @@ a:hover {
 }
 /* For small screens */
 @media (max-width: 600px) {
+  .container {
+    width: 99%;
+  }
+
   .inputForm {
+    display: flex;
     flex-direction: column;
-    gap: 15px;
+    align-items: center;
   }
 
   .line {
     flex-direction: column;
   }
-
   input {
-    width: 100%; /* Inputs take full width on smaller screens */
+    width: 100%;
   }
 
   /* Center squares on smaller screens */

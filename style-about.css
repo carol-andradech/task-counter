@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0; /* Remove all borders by default */
+}
+
+html,
+body {
+  height: 100%; /* Ensures the body takes the full height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  font-family: Arial, sans-serif; /* Basic font */
+  background-color: #363b4e; /* Light gray background */
+  padding: 0 20px; /* Adds padding on the left and right */
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Move content to the top */
+  align-items: flex-start; /* Align content to the left */
+  gap: 20px; /* Space between divs */
+  text-align: justify; /* Justify the text */
+  padding-top: 20px; /* Adds some space at the top */
+}
+
+.container {
+  background-color: #c4bbf0; /* White background for the content */
+  padding: 20px; /* Padding inside the container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+  width: 100%; /* Ensures it adjusts to fit the content */
+  max-width: 900px; /* Maximum width for the container */
+  display: flex; /* Ensure flexbox behavior */
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start; /* Align content to the left */
+  margin: 20px auto; /* Adds space around the container */
+}
+
+h1 {
+  color: #4f3b78;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+h2 {
+  text-align: left;
+  color: rgb(235, 164, 0);
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+p,
+ul {
+  text-align: justify; /* Justify the text */
+  font-size: 1rem; /* Set the font size for paragraphs */
+  line-height: 1.5; /* Line spacing */
+  margin-bottom: 15px; /* Add space between paragraphs */
+}
+
+ul {
+  margin-left: 20px; /* Indent the list items */
+  margin-bottom: 15px; /* Add space below the list */
+}
+
+section {
+  margin-bottom: 30px; /* Add space between sections */
+  width: 100%;
+  background-color: #4f3b78;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #363b4e;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+  bottom: 0;
+  border-radius: 10px;
+}
+
+a {
+  color: white;
+}
+
+header {
+  width: 100%; /* Garante que o cabeçalho ocupe toda a largura */
+  background-color: #4f3b78;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+nav ul.nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul.nav-list li {
+  margin-right: 20px;
+}
+
+nav ul.nav-list li:last-child {
+  margin-right: 0; /* Remove a margem do último item */
+}
+
+nav ul.nav-list li a {
+  color: rgb(239, 177, 29);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+nav ul.nav-list li a:hover {
+  text-decoration: underline;
+}
+
+.language-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.lang-button {
+  background: none;
+  color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.lang-button img {
+  width: 30px;
+  height: auto;
+}
+
+.lang-button:hover img {
+  opacity: 0.8;
+}
+
+.lang-button:active img {
+  opacity: 0.6;
+}

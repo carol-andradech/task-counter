@@ -5,5 +5,7 @@
   "clear": "Clear",
   "finished": "Finished:   ",
   "total": "0",
-  "toptext": "Task Counter"
+  "toptext": "Task Counter",
+  "homeLink": "Home",
+  "aboutLink": "How to use"
 }

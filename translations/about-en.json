@@ -1,0 +1,17 @@
+{
+  "title": "How to Use - Progress Tracker",
+  "pageTitle": "How to Use",
+  "objectiveTitle": "Objective",
+  "objectiveText": "This site helps you track your study progress, whether it's material pages or exercise questions. Monitor your progress in real-time!",
+  "featuresTitle": "Features",
+  "feature1": "Start and End Number:",
+  "feature2": "Progress Tracker:",
+  "feature3": "Dynamic Button Generation:",
+  "howItWorksTitle": "How It Works in Practice?",
+  "howItWorksText": "By setting the range (e.g., from 1 to 50), the site creates buttons. As you progress, you click the buttons to mark what you've completed, and the tracker updates automatically.",
+  "exampleTitle": "Example",
+  "exampleText": "If you're reading a book and are on page 20, set 'Start' to 1 and 'End' to 50. As you go on, mark the buttons of the pages you've read, and the 'completed' counter will be updated.",
+  "footerLink": "☕ GitHub - Ana Carolina Andrade",
+  "homeLink": "Home",
+  "aboutLink": "How to use"
+}
