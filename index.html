@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi-language Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Language Switcher -->
+    <div class="language-buttons">
+      <button id="ptButton" class="lang-button" onclick="changeLanguage('pt')">
+        <img src="brazil.png" alt="Portuguese" />
+      </button>
+      <button id="enButton" class="lang-button" onclick="changeLanguage('en')">
+        <img src="usa.png" alt="English" />
+      </button>
+    </div>
+    <h1 id="toptext">Task Counter</h1>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="inputForm">
+        <input type="text" id="start" placeholder="Start number" />
+        <input type="text" id="end" placeholder="End number" />
+      </div>
+      <div class="buttonRow">
+        <button id="generateButton">Generate</button>
+        <button id="clear">Clear</button>
+      </div>
+
+      <div class="totalArea">
+        <h1 class="insideTotal" id="finished">Finished:</h1>
+        <h2 class="insideTotal" id="total">0</h2>
+      </div>
+
+      <div class="squares"></div>
+    </div>
+
+    <footer>
+      <p>
+        <a href="https://github.com/carol-andradech"
+          >☕ GitHub - Ana Carolina Andrade
+        </a>
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

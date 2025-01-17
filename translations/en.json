@@ -1,0 +1,9 @@
+{
+  "start": "Start number",
+  "end": "End number",
+  "generate": "Generate",
+  "clear": "Clear",
+  "finished": "Finished:   ",
+  "total": "0",
+  "toptext": "Task Counter"
+}

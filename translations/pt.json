@@ -1,0 +1,9 @@
+{
+  "start": "Número inicial",
+  "end": "Número final",
+  "generate": "Gerar",
+  "clear": "Limpar",
+  "finished": "Concluído:   ",
+  "total": "0",
+  "toptext": "Contador Tarefa"
+}
